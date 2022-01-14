@@ -1,0 +1,104 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6508254800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.setup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verification des widgets - bouletcorp",
+        "description": "",
+        "id": "verification-des-widgets---bouletcorp;verification-des-widgets---bouletcorp",
+        "after": [
+          {
+            "result": {
+              "duration": 62300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11785552100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "je me rends sur \"http://www.bouletcorp.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.bouletcorp.com",
+                  "offset": 17
+                }
+              ],
+              "location": "BouletcorpStepDefinition.jeMeRendsSur(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3675479000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "je clique sur Aleatoire",
+            "match": {
+              "location": "BouletcorpStepDefinition.jeCliqueSurAleatoire()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1048779000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "la page a change",
+            "match": {
+              "location": "BouletcorpStepDefinition.laPageAChange()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 98228600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "les widgets facebook, twitter et tumblr sont bien affiches",
+            "match": {
+              "location": "BouletcorpStepDefinition.lesWidgetsFacebookTwitterEtTumblrSontBienAffiches()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Verification des widgets - bouletcorp",
+    "description": "En tant que utilisateur je souhaite verifier les widgets du site Bouletcorp",
+    "id": "verification-des-widgets---bouletcorp",
+    "keyword": "Feature",
+    "uri": "bouletcorp/Bouletcorp.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@bouletcorp"
+      }
+    ]
+  }
+]
